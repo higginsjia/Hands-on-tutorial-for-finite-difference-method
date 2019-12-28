@@ -1,0 +1,5 @@
+The code is about transistent temperature calculation using implicit scheme by finite difference method.
+Calculation domain is 2d with uniform square mesh.
+Jacobi iteration is used for the cauculation of the temperature field at the next time step.
+The data for 2d is reshaped to one dimensional array for Jacobi iteration like AX=B.
+Dirichlet boundary condition is used for bounday value setting at four boundary nodes.
